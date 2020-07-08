@@ -9,7 +9,7 @@
  * @author David J. Barnes and Michael Kolling
  * @version 2008.03.30
  */
-public class TicketMachine
+ class TicketMachine
 {
     // The price of a ticket from this machine.
     private Integer price;
@@ -94,5 +94,13 @@ public class TicketMachine
         balance = 0;
         
         return "Ticket price: " + price + " cents. " + "Your total is " + total + ".";
+    }
+    
+    public class Student
+    {
+        int status;
+    }
+    public class LabClass
+    {
     }
 }
